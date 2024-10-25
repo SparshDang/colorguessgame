@@ -1,0 +1,57 @@
+.heading{
+    margin: 10px auto;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+}
+.colors{
+    flex: 1;
+}
+.color__wrapper{
+    margin: 10px auto;
+    aspect-ratio: 1/1;
+    height: calc(50% - 10px);
+    border: 1px solid black;
+}
+
+.inputs{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+.actions{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.actions > button{
+    padding: 0.5rem;
+    border: 1px solid rgba(141, 141, 141, 0.639);
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.answer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.answer  >span {
+    border: 1px solid rgba(160, 160, 160, 0.758);
+    padding: 1rem;
+    border-radius: 10px;
+}
